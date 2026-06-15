@@ -1,5 +1,4 @@
-#La API de Detección de Objetos de TensorFlow es un entorno de código abierto desarrollado sobre TensorFlow que facilita la creación, entrenamiento e implementación de modelos de visión por computadora. Estos modelos son capaces de localizar e identificar múltiples objetos dentro de una misma imagen.
+#TensorFlow Object Detection API es un framework de código abierto construido sobre TensorFlow que facilita enormemente la creación, el entrenamiento y la implementación de modelos de detección de objetos.
+#En lugar de construir una red neuronal desde cero, esta API te permite utilizar modelos preentrenados (State-of-the-Art) y adaptarlos a tus propias necesidades mediante una técnica llamada Transfer Learning (Aprendizaje por Transferencia).
 
-#Esta API es compatible con TensorFlow 2.x, lo que permite una ejecución inmediata (Eager Execution) para una depuración más rápida y estrategias sencillas de distribución en múltiples GPUs o TPUs.
-
-#En este tutorial veremos la introducción básica y cómo utilizar un modelo preentrenado para realizar inferencias (detecciones) de inmediato.
+#La API cuenta con el TensorFlow 2 Detection Model Zoo, una colección de modelos ya entrenados con conjuntos de datos masivos como COCO (Common Objects in Context). Estos modelos pueden ser utilizados como punto de partida para tu propio proyecto de detección de objetos, lo que te ahorra tiempo y recursos computacionales.
